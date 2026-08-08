@@ -1,32 +1,119 @@
-# ABTalks Redesign
+# ABTalks — 60-Day Journey
 
-A mobile-first React/Vite/Tailwind redesign for the ABTalks 60-day coding challenge.
+ABTalks is a 60-day learning and accountability platform designed to help learners stay consistent, complete practical challenges, track progress, and build better learning habits.
 
-## Run in VS Code
+## ✨ Features
 
-```bash
-npm install
-npm run dev
-```
+- 🏁 **60-Day Learning Journey**
+  - Start and track a structured 60-day journey.
+  - View the current day and remaining days.
+  - Track overall journey progress.
 
-Then open the local Vite URL shown in the terminal.
+- 📊 **Personal Dashboard**
+  - Current journey day
+  - XP and level
+  - Current streak
+  - Learner ranking
+  - Daily challenge
+  - Achievements
+  - Learning activity
 
-## Production build
+- 🔥 **Streak Tracking**
+  - Track daily learning streaks.
+  - View personal best.
+  - Visual streak progress.
 
-```bash
-npm run build
-```
+- 🎯 **Daily Challenges**
+  - Practical challenge for each journey day.
+  - Challenge descriptions and requirements.
+  - Dedicated challenge page.
 
-## Routes
+- 📝 **Challenge Submission**
+  - Submit completed daily challenges.
+  - Dedicated submission interface.
 
-- `/`
-- `/dashboard`
-- `/day/12`
+- 🏆 **Achievements & XP**
+  - Earn achievements throughout the journey.
+  - Track XP and learner level.
+  - Gamified learning experience.
 
-## Stack
+- 📅 **Learning Schedule**
+  - Weekday and weekend learning schedules.
+  - Session duration and learning timeline.
 
-React, Vite, Tailwind CSS, React Router, Framer Motion, Lucide React.
+- 🔥 **Activity Heatmap**
+  - Visualize learning activity.
+  - Identify consistency and gaps in the journey.
 
-## Notes
+- 😊 **Mood Tracking**
+  - Select your current mood.
+  - Encourage reflection and self-awareness.
 
-This is a frontend-only hackathon prototype. Data, mood changes, edge-case states and challenge submission are mocked with local React state. No backend, authentication, database, GitHub API or LinkedIn API is used.
+- 🧠 **Reality Check**
+  - Reflect on current progress.
+  - Encourage honest self-assessment and consistency.
+
+- 🌱 **Minimum Win**
+  - Focus on completing one meaningful action each day.
+  - Helps maintain momentum even on difficult days.
+
+- 📱 **Responsive Design**
+  - Desktop, tablet, and mobile-friendly interface.
+  - Mobile bottom navigation for easier access.
+
+- 🎨 **Modern UI**
+  - Clean and minimal design.
+  - Card-based layouts.
+  - Progress indicators.
+  - Consistent typography and spacing.
+  - Focused learning experience.
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- JavaScript / JSX
+- React Router
+- Tailwind CSS
+- Lucide React
+
+## 📁 Project Structure
+
+```text
+abtalks-redesign/
+│
+├── src/
+│   ├── components/
+│   │   ├── AchievementCard.jsx
+│   │   ├── BottomNav.jsx
+│   │   ├── Card.jsx
+│   │   ├── ChallengeCard.jsx
+│   │   ├── Heatmap.jsx
+│   │   ├── MinimumWin.jsx
+│   │   ├── MoodSelector.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── ProgressBar.jsx
+│   │   ├── RealityCheck.jsx
+│   │   ├── ScheduleTimeline.jsx
+│   │   ├── StreakCard.jsx
+│   │   └── SubmissionForm.jsx
+│   │
+│   ├── data/
+│   │   └── mockData.js
+│   │
+│   ├── pages/
+│   │   ├── ChallengePage.jsx
+│   │   ├── Dashboard.jsx
+│   │   └── LandingPage.jsx
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── tailwind.config.js
+└── vite.config.js
