@@ -117,3 +117,48 @@ abtalks-redesign/
 ├── postcss.config.js
 ├── tailwind.config.js
 └── vite.config.js
+
+## 🎯 Vision
+
+> **Learn every day. Build every day. Become better every day.**
+
+ABTalks aims to make learning more consistent, practical, and accountable by turning daily learning into measurable progress, real-world projects, and lasting habits.
+
+---
+
+## 📌 Current Scope
+
+The current version of ABTalks focuses on the frontend learning experience and includes:
+
+- 🏁 60-day learning journey
+- 📊 Personal learning dashboard
+- 🔥 Daily streak tracking
+- 🎯 Daily practical challenges
+- 📝 Challenge submission interface
+- 🏆 Achievements and XP tracking
+- 📈 Progress tracking
+- 🔥 Learning activity heatmap
+- 😊 Mood tracking
+- 🧠 Reality Check reflection
+- 🌱 Minimum Win system
+- 📅 Learning schedule and timeline
+- 📱 Responsive mobile navigation
+- 🎨 Clean, minimal and responsive UI
+
+> **Note:** The current version uses mock/local data to demonstrate the learner experience.
+
+---
+
+## 🌐 Deployment
+
+ABTalks is deployed using **Vercel** and connected to the project's GitHub repository.
+
+- **Repository:** [GitHub](https://github.com/shaf-77/abtalks-redesign)
+- **Live Website:** [ABTalks](https://abtalks-redesign-smoky-nine.vercel.app/)
+- **Hosting:** Vercel
+- **Build Tool:** Vite
+- **Version Control:** Git & GitHub
+
+Changes pushed to the main branch can trigger a new production deployment.
+
+---
