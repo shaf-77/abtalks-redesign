@@ -120,7 +120,7 @@ abtalks-redesign/
 
 ## 🎯 Vision
 
-> **Learn every day. Build every day. Become better every day.**
+ **Learn every day. Build every day. Become better every day.**
 
 ABTalks aims to make learning more consistent, practical, and accountable by turning daily learning into measurable progress, real-world projects, and lasting habits.
 
@@ -147,7 +147,6 @@ The current version of ABTalks focuses on the frontend learning experience and i
 
 > **Note:** The current version uses mock/local data to demonstrate the learner experience.
 
----
 
 ## 🌐 Deployment
 
@@ -160,5 +159,3 @@ ABTalks is deployed using **Vercel** and connected to the project's GitHub repos
 - **Version Control:** Git & GitHub
 
 Changes pushed to the main branch can trigger a new production deployment.
-
----
